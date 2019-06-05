@@ -2,11 +2,16 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/cats">Cats</router-link> |
+      <router-link to="/dogs">Dogs</router-link> |
     </div>
-    <router-view/>
+    <b-container>
+      <router-view/>
+    </b-container>
   </div>
 </template>
+
+
 
 <style lang="scss">
 #app {
@@ -15,6 +20,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  height: 100vh;
+  background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url(./assets/images/pogo-on-dock.jpg);
 }
 #nav {
   padding: 30px;

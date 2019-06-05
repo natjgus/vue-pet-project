@@ -1,5 +1,8 @@
 # adopt-pets
 
+This is a basic Vue project from Gwen Faraday that introduces Vue-router, Vuex, API calls, and Unit Testing. Awesome! Time to move on to build some of my own applications. 
+
+
 ## Project setup
 ```
 npm install
