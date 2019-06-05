@@ -2,6 +2,8 @@
 
 This is a basic Vue project from Gwen Faraday that introduces Vue-router, Vuex, API calls, and Unit Testing. Awesome! Time to move on to build some of my own applications. 
 
+Check out the app in action here: https://natjgus.github.io/vue-pet-project/
+
 
 ## Project setup
 ```
